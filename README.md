@@ -16,7 +16,7 @@
 
 - [한 장 요약 (팀 공유용)](docs/cafe-manager-summary.md) — 핵심만 압축, 가장 중요한 정정 사항 포함
 - [리서치 감사 조서 (시각 자료)](docs/cafe-manager-dossier.html) — Mermaid 다이어그램 6개, 조사 과정 전체(파이프라인·정정사례·커뮤니티리스크 포함)
-- [직무기술서 상세판 (시각 자료)](docs/cafe-manager-job-description.html) — 감사 조서에서 핵심 6개 영역(결론·업무7가지·하루흐름·직급차이·성과지표·한계)만 추려 더 자세히 정리
+- [직무기술서 상세판](docs/cafe-manager-job-description.md) — 감사 조서에서 핵심 6개 영역(결론·업무7가지·하루흐름·직급차이·성과지표·한계)만 추려 더 자세히 정리
 - [Tavily 보충 원천데이터 231건 + 큐레이션](raw_data/README.md) — 새 검색 배치, A/B/C 등급 분류
 
 **가장 중요한 정정:** 원 리서치가 국내 근거로 쓴 노원구·강북구 채용공고를 PDF 원문 대조한 결과, 둘 다 민간 카페 매니저 채용이 아니라 **각 구청이 직영하는 관광시설 부속 카페의 공무원·기간제 근로자 채용**으로 확인됐다. 상세는 위 한 장 요약 또는 [`docs/cafe-manager-research.md`](docs/cafe-manager-research.md)의 '한계' 섹션 참고.
