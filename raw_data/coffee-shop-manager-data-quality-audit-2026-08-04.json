@@ -1,0 +1,591 @@
+{
+  "generated_at": "2026-08-04T08:37:54.981948+00:00",
+  "dataset": "work/coffee-manager-source-registry-augmented-2026-08-04.json",
+  "grain": "one canonical source URL per record",
+  "intended_use": "source discovery and triangulation for coffee-shop store-manager work research",
+  "not_suitable_for": [
+    "copyrighted full-text redistribution",
+    "unreviewed model training",
+    "claiming that all 510 records directly describe manager duties"
+  ],
+  "checks": {
+    "row_count": 510,
+    "expected_row_count": 510,
+    "category_counts": {
+      "community": 200,
+      "blog": 200,
+      "news": 100,
+      "paper": 10
+    },
+    "duplicate_id_count": 0,
+    "duplicate_canonical_url_count": 0,
+    "missing_required_fields": {},
+    "malformed_url_count": 0,
+    "invalid_category_count": 0,
+    "secret_hit_count": 0,
+    "excerpt_present_count": 454,
+    "raw_content_present_count": 0,
+    "publication_date_present_count": 233
+  },
+  "quality": {
+    "tier_counts": {
+      "A": 146,
+      "B": 276,
+      "C": 88
+    },
+    "analysis_ready_count": 422,
+    "excluded_count": 88,
+    "analysis_ready_by_category": {
+      "community": 198,
+      "blog": 135,
+      "news": 79,
+      "paper": 10
+    },
+    "evidence_directness": {
+      "direct_role_evidence": 321,
+      "indirect_manager_context": 189
+    },
+    "languages": {
+      "ko": 68,
+      "en": 442
+    },
+    "collection_methods": {
+      "tavily_search_api": 153,
+      "pullpush_reddit_index": 130,
+      "publisher_sitemap_page_metadata": 98,
+      "brave_search_html": 19,
+      "google_news_rss": 100,
+      "openalex_api": 10
+    },
+    "top_hosts": {
+      "reddit.com": 143,
+      "news.google.com": 100,
+      "baristamagazine.com": 43,
+      "pos.toasttab.com": 24,
+      "perfectdailygrind.com": 18,
+      "m.kin.naver.com": 11,
+      "a-ha.io": 10,
+      "teamblind.com": 9,
+      "deputy.com": 9,
+      "doi.org": 9,
+      "workstream.us": 8,
+      "ziprecruiter.com": 8,
+      "youtube.com": 7,
+      "indeed.com": 6,
+      "7shifts.com": 6,
+      "getbrewspace.com": 5,
+      "jobkorea.co.kr": 4,
+      "lightspeedhq.com": 4,
+      "kr.indeed.com": 3,
+      "baristalife.co": 3,
+      "coffeebeanhawaii.com": 3,
+      "texascoffeeschool.com": 3,
+      "quora.com": 2,
+      "artisancoffee.us": 2,
+      "himalayas.app": 2,
+      "joinhomebase.com": 2,
+      "m.blog.naver.com": 2,
+      "myskillsfuture.gov.sg": 2,
+      "rockpointchurch.com": 2,
+      "scribd.com": 2
+    },
+    "flag_counts": {
+      "missing_publication_date": 277,
+      "aggregator_link_not_direct_publisher_article_url": 100,
+      "news_is_manager_context_not_direct_duty_evidence": 96,
+      "indirect_without_strong_operations_signal": 66,
+      "missing_excerpt": 56,
+      "owner_startup_context_not_core_manager_work": 23,
+      "sitemap_url_only_no_page_excerpt": 13,
+      "competition_or_event_only": 11,
+      "unrelated_incident_or_human_interest": 8
+    }
+  },
+  "samples": {
+    "excluded": [
+      {
+        "id": "src_2283fd162d575d57",
+        "category": "community",
+        "title": "[단독] '설거지 너무 많이 시켜'‥점장 커피에 '락스' 탄 카페 직원",
+        "url": "https://clien.net/service/board/park/18225026",
+        "quality_flags": [
+          "missing_publication_date",
+          "unrelated_incident_or_human_interest"
+        ]
+      },
+      {
+        "id": "src_b4b01057da1279ce",
+        "category": "community",
+        "title": "Supervisory / Leadership Skills?",
+        "url": "https://reddit.com/r/barista/comments/1ednlox/supervisory_leadership_skills",
+        "quality_flags": [
+          "unrelated_incident_or_human_interest"
+        ]
+      },
+      {
+        "id": "src_77bdefc5aa1113d1",
+        "category": "blog",
+        "title": "How Much Does It Cost to Open a Coffee Shop?",
+        "url": "https://7shifts.com/blog/coffee-shop-opening-cost",
+        "quality_flags": [
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_20d9cfb0c0ca8559",
+        "category": "blog",
+        "title": "How Much Does It Cost to Rent a Coffee Shop?",
+        "url": "https://7shifts.com/blog/cost-to-rent-coffee-shop",
+        "quality_flags": [
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_30276cf3e44d733f",
+        "category": "blog",
+        "title": "How To Start A Coffee Shop: A Step-By-Step Opening Guide",
+        "url": "https://7shifts.com/blog/opening-a-coffee-shop",
+        "quality_flags": [
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_25ee8bbb3af9d60e",
+        "category": "blog",
+        "title": "How Much Does It Cost to Open a Cafe?",
+        "url": "https://7shifts.com/blog/opening-cafe-costs",
+        "quality_flags": [
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_9c208ccc4f443c90",
+        "category": "blog",
+        "title": "5 questions to ask yourself before opening a cafe with matt millet of the american barista coffee school",
+        "url": "https://baristamagazine.com/5-questions-to-ask-yourself-before-opening-a-cafe-with-matt-millet-of-the-american-barista-coffee-school",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_804687b3f456b675",
+        "category": "blog",
+        "title": "as cafes close baristas start virtual tip jars",
+        "url": "https://baristamagazine.com/as-cafes-close-baristas-start-virtual-tip-jars",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date",
+          "unrelated_incident_or_human_interest"
+        ]
+      },
+      {
+        "id": "src_1685dc581b0be24a",
+        "category": "blog",
+        "title": "barista training camp prepping for the 2016 usbc qualifying event part 1",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-2016-usbc-qualifying-event-part-1",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_9ced59e8b1346cfa",
+        "category": "blog",
+        "title": "barista training camp prepping for the 2016 usbc qualifying event part 2 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-2016-usbc-qualifying-event-part-2-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_4164212800ad74f9",
+        "category": "blog",
+        "title": "barista training camp prepping for the 2016 usbc qualifying event part 3 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-2016-usbc-qualifying-event-part-3-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_03429bb24d349564",
+        "category": "blog",
+        "title": "barista training camp prepping for the 2016 usbc qualifying event part 4 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-2016-usbc-qualifying-event-part-4-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_a64aa4fb85d510ae",
+        "category": "blog",
+        "title": "barista training camp prepping for the 2016 usbc qualifying event part 6 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-2016-usbc-qualifying-event-part-6-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_d81c7d2727d493c1",
+        "category": "blog",
+        "title": "barista training camp prepping for the 2016 usbc qualifying event part 7 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-2016-usbc-qualifying-event-part-7-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_b3cd6da7618313b7",
+        "category": "blog",
+        "title": "barista training camp prepping for the usbc qualifying event part 10 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-usbc-qualifying-event-part-10-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_5d794f1529d20c5e",
+        "category": "blog",
+        "title": "barista training camp prepping for the usbc qualifying event part 8 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-usbc-qualifying-event-part-8-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_a1030aa78a41a045",
+        "category": "blog",
+        "title": "barista training camp prepping for the usbc qualifying event part 9 of 10",
+        "url": "https://baristamagazine.com/barista-training-camp-prepping-for-the-usbc-qualifying-event-part-9-of-10",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_f2b77a3094d1f708",
+        "category": "blog",
+        "title": "cropster cafe helps coffee shops optimize daily operations",
+        "url": "https://baristamagazine.com/cropster-cafe-helps-coffee-shops-optimize-daily-operations",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_4020b52f4bcdeab5",
+        "category": "blog",
+        "title": "fat cat coffee house why do people open specialty cafes",
+        "url": "https://baristamagazine.com/fat-cat-coffee-house-why-do-people-open-specialty-cafes",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_d5aa934ce0d96fa9",
+        "category": "blog",
+        "title": "lets talk about barista safety dealing with sexual harassment",
+        "url": "https://baristamagazine.com/lets-talk-about-barista-safety-dealing-with-sexual-harassment",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_0ba418c4a9da8f6c",
+        "category": "blog",
+        "title": "nashvilles barista parlor partners black keys open golden sound historic recording studio",
+        "url": "https://baristamagazine.com/nashvilles-barista-parlor-partners-black-keys-open-golden-sound-historic-recording-studio",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date",
+          "unrelated_incident_or_human_interest"
+        ]
+      },
+      {
+        "id": "src_fd3fe400e16d4e6a",
+        "category": "blog",
+        "title": "northwest regional barista comp brewers cup official schedule",
+        "url": "https://baristamagazine.com/northwest-regional-barista-comp-brewers-cup-official-schedule",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_d9978732f87730df",
+        "category": "blog",
+        "title": "now open barista magazine cafe",
+        "url": "https://baristamagazine.com/now-open-barista-magazine-cafe",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_521073aa3fc0a45d",
+        "category": "blog",
+        "title": "official schedule for the big central regional barista comp and brewers cup",
+        "url": "https://baristamagazine.com/official-schedule-for-the-big-central-regional-barista-comp-and-brewers-cup",
+        "quality_flags": [
+          "competition_or_event_only",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_885edbf5297ae835",
+        "category": "blog",
+        "title": "open cafe day kalle freese",
+        "url": "https://baristamagazine.com/open-cafe-day-kalle-freese",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_b0167060686972d4",
+        "category": "blog",
+        "title": "opening a new cafe during covid 19 hong kong",
+        "url": "https://baristamagazine.com/opening-a-new-cafe-during-covid-19-hong-kong",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_892df64c49bd84cc",
+        "category": "blog",
+        "title": "opening a new cafe during covid 19 hong kong continued",
+        "url": "https://baristamagazine.com/opening-a-new-cafe-during-covid-19-hong-kong-continued",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_3c604d21dd95088b",
+        "category": "blog",
+        "title": "opening a new cafe during covid 19 united states",
+        "url": "https://baristamagazine.com/opening-a-new-cafe-during-covid-19-united-states",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_279ee91cefedcd01",
+        "category": "blog",
+        "title": "opening second cafe subrosa",
+        "url": "https://baristamagazine.com/opening-second-cafe-subrosa",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_e2c1e184621d1290",
+        "category": "blog",
+        "title": "tobys to open manhattan cafe on monday",
+        "url": "https://baristamagazine.com/tobys-to-open-manhattan-cafe-on-monday",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_1303d3f5b072bbe0",
+        "category": "blog",
+        "title": "u s barista champs lem butler kyle ramage open new roasting company",
+        "url": "https://baristamagazine.com/u-s-barista-champs-lem-butler-kyle-ramage-open-new-roasting-company",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_603457f5d49d658d",
+        "category": "blog",
+        "title": "wbc champ alejandro mendez to open concept cafe in madison wisc",
+        "url": "https://baristamagazine.com/wbc-champ-alejandro-mendez-to-open-concept-cafe-in-madison-wisc",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_ef313279bea862e3",
+        "category": "blog",
+        "title": "what your cafe order says about you according to psychology",
+        "url": "https://baristamagazine.com/what-your-cafe-order-says-about-you-according-to-psychology",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_a33118a7faafb815",
+        "category": "blog",
+        "title": "whats your re opening plan the barista league",
+        "url": "https://baristamagazine.com/whats-your-re-opening-plan-the-barista-league",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_43f5e96142e15ff6",
+        "category": "blog",
+        "title": "Common Grounds Coffee House Operations Manager",
+        "url": "https://emu.edu/studentlife/common-grounds/docs/operations-manager.pdf",
+        "quality_flags": [
+          "missing_publication_date",
+          "unrelated_incident_or_human_interest"
+        ]
+      },
+      {
+        "id": "src_e4c4a21d44c472e8",
+        "category": "blog",
+        "title": "Brewing Up: How Much Does it Cost to Start a Coffee Shop? - Lightspeed",
+        "url": "https://lightspeedhq.com/blog/how-much-does-it-cost-to-open-a-coffee-shop",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_a1d360f0b8b4d43b",
+        "category": "blog",
+        "title": "How to Write a Business Plan for Opening a Cafe - Lightspeed",
+        "url": "https://lightspeedhq.com/blog/open-a-cafe-a-business-plan",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work"
+        ]
+      },
+      {
+        "id": "src_ce5c68cb3a4bb331",
+        "category": "blog",
+        "title": "8 Things I Wish Somebody Told Me When I Opened My First Cafe",
+        "url": "https://lightspeedhq.com/blog/opening-first-cafe",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_publication_date"
+        ]
+      },
+      {
+        "id": "src_27d5dfd396ad71ba",
+        "category": "blog",
+        "title": "5 golden rules for opening your own coffee shop",
+        "url": "https://perfectdailygrind.com/2015/05/5-golden-rules-for-opening-your-own-coffee-shop",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date",
+          "owner_startup_context_not_core_manager_work",
+          "sitemap_url_only_no_page_excerpt"
+        ]
+      },
+      {
+        "id": "src_93e786bb96581549",
+        "category": "blog",
+        "title": "design 101 6 ways to make customers return to your cafe",
+        "url": "https://perfectdailygrind.com/2015/09/design-101-6-ways-to-make-customers-return-to-your-cafe",
+        "quality_flags": [
+          "indirect_without_strong_operations_signal",
+          "missing_excerpt",
+          "missing_publication_date",
+          "sitemap_url_only_no_page_excerpt"
+        ]
+      }
+    ]
+  },
+  "risk_assessment": [
+    {
+      "severity": "high",
+      "finding": "The 510-record quota layer mixes direct role evidence with indirect operational context.",
+      "evidence": {
+        "direct_role_evidence": 321,
+        "indirect_manager_context": 189
+      },
+      "impact": "Treating every row as direct duty evidence would overstate support.",
+      "remediation": "Use the analysis-ready file and retain evidence_directness in downstream analysis."
+    },
+    {
+      "severity": "high",
+      "finding": "Third-party full text is intentionally absent.",
+      "evidence": {
+        "raw_content_present": 0,
+        "total": 510
+      },
+      "impact": "The dataset is a source registry with short excerpts, not a full-text corpus.",
+      "remediation": "Fetch source text only under a compatible license or with publisher permission; record license per item."
+    },
+    {
+      "severity": "medium",
+      "finding": "Community evidence is concentrated on Reddit and news links are aggregator URLs.",
+      "evidence": {
+        "reddit.com": 143,
+        "news.google.com": 100,
+        "baristamagazine.com": 43,
+        "pos.toasttab.com": 24,
+        "perfectdailygrind.com": 18
+      },
+      "impact": "Platform and geography bias limits representativeness.",
+      "remediation": "Add licensed Korean worker-community and direct publisher feeds in a later collection round."
+    },
+    {
+      "severity": "medium",
+      "finding": "Korean-language evidence is a minority of the registry.",
+      "evidence": {
+        "ko": 68,
+        "total": 510
+      },
+      "impact": "Korean labor and store-operation practices may be underrepresented.",
+      "remediation": "Set a separate Korean-language minimum and manually verify login-gated source availability."
+    }
+  ]
+}
