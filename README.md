@@ -6,6 +6,7 @@
 
 - [카페 매니저 리서치 원문](docs/cafe-manager-research.md)
 - [다각도 검토 요약](docs/cafe-manager-multi-angle-audit.md)
+- [커뮤니티 근거 보강 노트](docs/cafe-manager-community-evidence.md)
 - [review 전체 보고서](review_cafe_manager/report.md)
 - [개선 제안 5건](review_cafe_manager/improve.md)
 - [상태 메타데이터](review_cafe_manager/state.json)

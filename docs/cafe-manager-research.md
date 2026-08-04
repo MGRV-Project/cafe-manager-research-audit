@@ -117,6 +117,21 @@ O*NET은 의사결정·문제해결, 코칭·교육, 업무 조정, 기준 준�
 
 > 카페 매니저는 고객에게 일관된 제품과 서비스를 제공하도록 인력과 근무조를 운영하고, 재고·발주·위생·시설·정산을 통제하며, 매출·원가·고객·직원 지표를 바탕으로 매장 성과를 개선한다.
 
+## 커뮤니티 기반 다각도 보강(근무자 관점)
+
+공식 채용공고 및 표준 직무기술 외에, 커뮤니티의 반복 이슈를 통해 실무 리스크를 보강합니다.
+
+- **근무시간·보상 리스크(최우선):**  
+  블라인드의 카페 매니저·슈퍼바이저 체험담에서는 실제 근무가 계약 시간보다 길어지거나(12시간+ 사례 언급), 포괄임금제 운영에서 추가 수당이 없다는 경험이 다수 제시됩니다. 같은 글에서 오픈 전 준비를 위해 영업시작 2시간 전 출근, 설비 준비·청소 등 반복형 업무가 누적되는 점도 반복됩니다.
+
+- **업무 범위 모호성:**  
+  일부 커뮤니티에서는 매니저가 백오피스 위주로만 존재하지 않고, 스케줄·근태·시설·고객 불만 처리까지 다뤄야 한다는 인식이 강합니다. 반대로 바리스타가 재료 주문, 폐기/입고 관리 같은 비매니저 영역을 떠맡는 사례도 있어, 매장의 권한 설계가 애매하면 운영 리스크가 커질 수 있다는 시사점이 나옵니다.
+
+- **직원 운영 부담:**  
+  스몰비즈니스 커뮤니티에서는 스케줄 실패 지점(근무 가능 시간 수집, 돌발 결근, 교체 승인 규칙 부재, 비용 대비 인건비 관리)에 대한 사례가 많고, 일정 도구보다 ‘규칙(교대 규칙·교대 변경 규정·비용 한도)’ 정비가 선행돼야 한다는 실무 조언이 반복됩니다. 매니저의 하루 업무는 인력조정과 커뮤니케이션도 핵심이 됨을 뒷받침합니다.
+
+이 부분은 익명 커뮤니티 증언이기 때문에 통계적 일반화보다 **이슈 탐지용 근거**로 해석하고, 면접/권한협의(발주권·스케줄권·근태권·가격권·환불/할인권)로 검증하는 절차가 필요합니다.
+
 ## 한계
 
 - 국내 근거는 공공 운영 카페 두 곳과 민간 공개 공고 한 곳에 불과하므로 민간 프랜차이즈나 개인 카페 전체를 대표하지 않는다.
@@ -134,3 +149,7 @@ O*NET은 의사결정·문제해결, 코칭·교육, 업무 조정, 기준 준�
 - [O*NET OnLine, Food Service Managers, 2026 update](https://www.onetonline.org/link/details/11-9051.00)
 - [Starbucks Careers, Coffeehouse Roles](https://careers.starbucks.com/discover-opportunities/coffeehouses/)
 - [Tata Starbucks, Store Manager Job Details](https://careers.starbucks.in/job/Mumbai-Store-Manager/1210787101/)
+- [블라인드: 프랜차이즈 카페 매니저로 일하고 싶습니다](https://www.teamblind.com/kr/post/%ED%94%84%EB%9E%9C%EC%B0%A8%EC%9D%B4%EC%A6%88-%EC%B9%B4%ED%8E%98-%EB%A7%A4%EB%8B%88%EC%A0%80%EB%A1%9C-%EC%9D%BC%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4-dJuMg7Hx)
+- [블라인드: 프랜차이즈 카페 오픈바이저/수퍼바이저](https://www.teamblind.com/kr/post/%ED%94%84%EB%9E%9C%EC%B0%A8%EC%9D%B4%EC%A6%88-%EC%B9%B4%ED%8E%98-%EC%98%A4%ED%94%88%EB%B0%94%EC%9D%B4%EC%A0%80%EC%88%98%ED%8D%BC%EB%B0%94%EC%9D%B4%EC%A0%80-KaWvmaLN)
+- [Reddit r/barista: Difference between a cafe manager and a barista](https://www.reddit.com/r/barista/comments/xeck6d/difference_between_a_cafe_manager_and_a_barista/)
+- [Reddit r/smallbusiness: 직원 스케줄 운영 사례](https://www.reddit.com/r/smallbusiness/comments/1ub5vfm/how_do_you_handle_employee_scheduling/)
