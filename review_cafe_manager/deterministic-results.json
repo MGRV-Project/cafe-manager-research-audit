@@ -1,0 +1,37 @@
+{
+  "access_limitation_disclosure": {
+    "evidence": "정직 표기 문구 0건 발견(해당 없으면 리서치 범위 내 접근 제약이 없었다는 뜻일 수도 있음)",
+    "status": "N/A",
+    "title": "접근 한계 정직 표기"
+  },
+  "citation_density": {
+    "evidence": "근사 문장수 63, 인용 17건 (비율 0.270, 휴리스틱 근사치)",
+    "status": "PASS",
+    "title": "주장 대비 인용 밀도"
+  },
+  "dead_link": {
+    "evidence": "데드링크 3건: https://www.bls.gov/ooh/Management/Food-service-managers.htm (HEAD=403, GET=403), https://www.bls.gov/ooh/Management/Food-service-managers.htm (HEAD=403, GET=403), https://www.bls.gov/ooh/Management/Food-service-managers.htm (HEAD=403, GET=403)",
+    "status": "FAIL",
+    "title": "인용 URL 응답 확인"
+  },
+  "incentive_disclosure": {
+    "evidence": "키워드 발견: 인센티브 — 인용된 후기가 이 인센티브의 영향을 받았는지 discourse 라운드에서 재확인 필요",
+    "status": "WARN",
+    "title": "인센티브 리뷰 언급 스캔"
+  },
+  "numeric_consistency": {
+    "evidence": "동일 문구에 서로 다른 수치가 붙은 사례 없음(휴리스틱 탐지 기준)",
+    "status": "PASS",
+    "title": "수치 일관성(동일 문구 반복 수치 대조)"
+  },
+  "source_diversity": {
+    "evidence": "spec.subject_owned_domains 미설정",
+    "status": "NOT_CONFIGURED",
+    "title": "출처 다양성(자사발행 비중)"
+  },
+  "staleness": {
+    "evidence": "임계값(2년) 초과 연도 없음",
+    "status": "PASS",
+    "title": "인용 최신성"
+  }
+}
