@@ -23,6 +23,14 @@
 - `coffee-shop-manager-data-quality-audit-2026-08-04.md`
   - 사람이 읽는 품질 감사 보고서
 
+## 2026-08-04 Tavily 보충 원문 (미큐레이션)
+
+- `coffee-shop-manager-tavily-raw-2026-08-04.json` / `.md`
+  - Claude Code 세션 내 Tavily Search API로 추가 수집한 원문 231건(URL 중복제거, 33개 쿼리)
+  - **등급·관련성 재산정 없음** — 검색 노이즈(무관 결과) 포함된 원문 그대로 우선 업로드
+  - `matched_queries` 필드로 어떤 검색어에서 나왔는지 추적 가능
+  - 큐레이션·분석 반영은 별도 후속 작업 필요
+
 ## 기존 파일
 
 - `cafe-manager-raw-data-2026-08-04.json`
