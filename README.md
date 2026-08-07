@@ -23,6 +23,7 @@
 
 ## 포함 문서
 
+- [카페 매니저 AX 전환 직무기술서](docs/cafe-manager-ax-job-description.md) — 자사 제품(MangroveCafeOrder) 설계 문서 기준, 업무 7가지 중 자동화되는 부분과 남는 부분 매핑(2026-08-07, 도입 검증 데이터 아님)
 - [카페 매니저 리서치 원문](docs/cafe-manager-research.md) — 2026-08-04 원문 재검증으로 정정 반영됨
 - [다각도 검토 요약](docs/cafe-manager-multi-angle-audit.md)
 - [커뮤니티 근거 보강 노트](docs/cafe-manager-community-evidence.md)
